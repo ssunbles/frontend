@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'QuiteChocolatey';
+    src: url(../fonts/Quite\ Chocolatey.otf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Bold.otf');
+}
+@font-face {
+    font-family: 'Couture';
+    src: url('/fonts/Couture-BoldItalic\ 700.otf');
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+.billboard {
+    background-image: url(../img/Layer\ 13.png); 
+    margin: 0;
+    height: 700px;
+}
+.container {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+   
+.menu_ {
+    display: flex;
+    padding-top: 37px;
+    margin: 0 0 130px 0;
+    max-width: 1100px;
+    max-height: 100px;
+
+}
+.logo__ {
+    font-size: 60px;
+    font-family: 'QuiteChocolatey';
+    color: rgb(255, 255, 255);
+    line-height: 60px;
+    padding: 0;
+    height: 100px;
+    width: 290px;
+    margin: 0;
+    align-items: center;    
+    margin-right: 195px;
+}
+
+.menu__inner {
+    display: flex;
+    list-style: none;   /* убираем точки от списка */
+    align-items: center;
+    max-width: 520px;
+    max-height: 40px;
+    margin: 0 auto;
+}
+
+
+
+.menu__inner li {
+    margin: 10px;
+
+}
+.menu__inner li a {
+    text-transform: uppercase;
+     font-size: 15px;
+     font-family: "Myriad Pro";
+     color: rgb(255, 255, 255);
+     line-height: 15px;
+     text-decoration: none;
+     font-weight: none; 
+     padding: 10px;
+
+}
+.menu__inner li a:hover {
+    border-radius: 5px;
+    background-color: rgb(19, 14, 39);
+}
+.sell__inner {
+    display: block;
+    text-align: left;
+    margin:0 0 0 15px;
+
+}
+.sell1__title {
+    font-size: 70px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 70px;
+    padding: 0;
+    margin: 0;
+    width: 516px;
+    height: 70px;
+}
+.sell2__title {
+    font-size: 70px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: none;
+    line-height: 70px;  
+    padding: 0;
+    margin: 0 0 50px 0;
+     width: 516px;
+     height: 70px;
+}
+.sell__text {
+    font-size: 20px;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    line-height: 20px; 
+    width: 460px;
+    height: 75px;
+}
+
+.services {
+    max-height: 500px;
+}
+.texts {
+    font-size: 45px;
+    font-family: "Couture";
+    font-weight: bold;
+    line-height: 50px;
+    display: flex;
+    margin: 0 0 90px 15px;
+    width: 500px;
+    height: 45px;
+    
+    
+}
+.our {
+    color: rgb(198, 35, 20);
+    margin-right: 5px;
+}
+.services1 {
+    color: #130e27;
+}
+
+.cards {
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+}
+.item {
+    width: 180px;
+    height: 250px;
+
+}
+.icon {
+    width: 175px;
+    height: 152px;
+    margin: 0;
+    padding: 0;
+}
+.item__text {
+   
+        font-size: 20px;
+        font-family: serif;
+        color: rgb(22, 22, 22);
+        line-height: 20px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+}
+
+.line_ {
+    height: 120px;
+    background-color: #130e27;
+   
+}
+.line__ {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 25px;
+   
+}
+.line__text {
+    font-size: 20px;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    width: 605px;
+    margin-left: 15px;
+}
+.line__buttom {
+    background-color: #c62314;
+    text-align: center;
+    padding: 25px 75px 25px 65px;
+    width: 270px;
+    height: 65px;
+    margin: 0;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    text-align: center;
+    font-weight: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.pricing {
+    background-color: #efefef;
+    height: 615px;
+}
+.pricing__title {
+    margin: 0 auto;
+    padding: 65px 0 60px 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 50px;
+      
+   
+}
+.pricing__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.pricing__item {
+    background-color: #fff;
+    width: 320px;
+    height: 390px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.pricing__ttext {
+    font-size: 22px;
+    font-family: serif;
+    color: rgb(22, 22, 22);
+    line-height: 22px;
+    text-align: center;
+    padding: 35px 0 35px; 
+}
+.pricing__sell {
+   
+    font-size: 52px;
+    font-family: "Montserrat";
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 15px;
+       
+
+}
+.pricing__ltext {
+    font-size: 20px;
+    font-family: Serif;
+    color: rgb(22, 22, 22);
+    line-height: 27px;
+    text-align: center;
+    padding-bottom: 7px;
+    
+}
+.pricing__buttom {
+    font-size: 22px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    text-align: center;
+    background-color: #130e27;
+    width: 205px;
+    height: 50px;
+    margin: 0 auto;
+}
+.pricing__buttom:hover {
+    border-radius: 5px;
+    background-color: #c62314;
+}
+.last__list {
+    background-color: #130e27;
+    height: 190px;
+}
+.last__list .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #130e27;
+    margin: 0 auto;
+    text-align: center;
+}
+.last__texts {
+    color: #fff;
+    font-size: 20px;
+    font-family: Serif;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    text-align: left;
+    margin: 0;
+    padding: 75px 0 70px;
+
+}
+.last__text1 {
+    color: #c62314;
+}
+
+.logo__logo {
+    font-size: 60px;
+    font-family: 'QuiteChocolatey';
+    color: #c62314;
+    margin: 0;
+    padding: 60px 0 60px;
+}
+
